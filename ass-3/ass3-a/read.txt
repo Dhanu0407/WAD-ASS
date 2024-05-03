@@ -1,0 +1,6 @@
+//npm init
+add info 
+//npm install express --save
+
+after creating the server then run 
+node index.js on cmd
