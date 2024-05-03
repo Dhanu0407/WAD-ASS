@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark gray text */
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .product-item {
+            text-align: center;
+            width: 45%;
+            margin: 10px;
+            background-color: #fff; /* White background for each product */
+            padding: 20px; /* Add padding for better readability */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+        }
+
+        .product-item img {
+            width: 100%; /* Make all images the same width */
+            height: auto;
+            margin-bottom: 10px; /* Add space below each image */
+        }
+
+        .product-item h4 {
+            color: #007bff; /* Blue color for product titles */
+        }
+
+        .product-item p {
+            color: #666; /* Dark gray color for product descriptions */
+        }
+
+        .product-item p.price {
+            color: #28a745; /* Green color for product prices */
+            font-weight: bold; /* Bold font for prices */
+        }
+    </style>
+    <title>Dhanashri Arts</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header" data-theme="b">
+        <h1>Dhanashri Arts</h1>
+    </div>
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="index.html" class="ui-btn-active">Home</a></li>
+            <li><a href="C:/Users/91916/Desktop/internship/WAD/ass-4/ass 4a/about_us.html">About us</a></li>
+            <li><a href="products.html">Product</a></li>
+            <li><a href="login_register.html">Login/Register</a></li>
+        </ul>
+    </div><!-- /navbar -->
+    <div class="content">
+        <center><h3>Products</h3></center>
+        <div class="product-container">
+            <div class="product-item">
+                <img src="product1.jpeg" alt="Product 1">
+                <h4>Professional DSLR Camera</h4>
+                <p>This professional DSLR camera features a 24.2-megapixel sensor, allowing you to capture high-quality images with stunning clarity and detail. With advanced autofocus technology, you can quickly and accurately focus on your subject, ensuring sharp images every time.</p>
+                <p>Its ergonomic design and intuitive controls make it easy to handle, even in challenging shooting conditions. Whether you're a professional photographer or an amateur enthusiast, this camera is perfect for capturing your most memorable moments.</p>
+                <p class="price">Price: Rs.100000</p>
+            </div>
+            <div class="product-item">
+                <img src="product2.jpeg" alt="Product 2">
+                <h4>Luxurious Moisturizing Cream</h4>
+                <p>This luxurious moisturizing cream is specially formulated to hydrate and nourish your skin, leaving it feeling soft, smooth, and rejuvenated. Infused with natural botanical extracts and vitamins, it helps replenish moisture levels, reduce dryness, and improve overall skin texture.</p>
+                <p>With its lightweight and non-greasy formula, this cream absorbs quickly into the skin, providing instant hydration and long-lasting moisture. Perfect for all skin types, it can be used daily as part of your skincare routine to maintain healthy, radiant-looking skin.</p>
+                <p class="price">Price: Rs.1500</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
